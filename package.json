@@ -1,0 +1,44 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "gulp-template",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sourcemaps-support": "0.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "npm-git-install": "^0.3.0",
+    "swiper": "^4.4.6",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Betsichka/gulp-template.git"
+  },
+  "author": "bets",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Betsichka/gulp-template#readme",
+  "dependencies": {
+    "gulp-install": "^1.1.0",
+    "gulp-notify": "^3.2.0",
+    "jquery": "^3.3.1",
+    "magnific-popup": "^1.1.0",
+    "sanitize.css": "^8.0.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
