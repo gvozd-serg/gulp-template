@@ -76,7 +76,7 @@ gulp.task('icon', function () {
 });
 
 gulp.task('sass', function () {
-  return gulp.src('src/sass/**/*.sass')
+  return gulp.src('src/scss/**/*.+(scss|sass)')
       .pipe(sourcemaps.init())
       .pipe(sass({outputStyle: 'compressed'}).on('error', notify.onError()))
       .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
@@ -93,7 +93,7 @@ gulp.task('css-libs', ['sass'], function () {
 });
 
 gulp.task('watch', ['browserSync', 'css-libs', 'scripts'], function () {
-  gulp.watch('src/sass/**/*.sass', ['sass']);
+  gulp.watch('src/scss/**/*.+(scss|sass)', ['sass']);
   gulp.watch('src/*.html', browserSync.reload);
   gulp.watch('src/js/**/*.js', browserSync.reload);
 });
